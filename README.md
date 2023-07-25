@@ -8,33 +8,33 @@ La diferencia entre estos grupos es si el kernel cumple con lo mínimo necesario
 
 ## Escenciales
 
-### Kernel monolítico 
+* ### Kernel monolítico 
 
 El nombre de monolítico hace referencia a que es un elemento de software de una sóla pieza, no está formado por elementos desacoplados que interactúan entre si sino que cada uno de sus componentes se encuentran fuertemente entrelazados entre si.
 
-### Microkernel
+* ### Microkernel
 
 Es un elemento de software el cual es el resultado de multiples elementos de kernel que cumplen una función en concreto y que se entrelazan para comunicarse entre elementos pero sin mezclar funciones y responsabilidades entre ellos.
 
-### Kernel hibrido
+* ### Kernel hibrido
 
 Es un kernel que resulta de la combinación de elementos construidos como un kernel monolítico y otros elementos construidos como un microkernel.
 
 ## No Escenciales
 
-### Nanokernel
+* ### Nanokernel
 
 Kernel de menores dimensiones a las que se proponen en un microkernel, lo que aumenta la fiabilidad de los elementos que lo componen.
 
-### Exokernel
+* ### Exokernel
 
 Kernel que propone una arquitectura de crecimiento en vertical, en donde los recursos de hardware pueden ser gestionados por software y no por el sistema operativo unicamente.
 
-### Unikernel
+* ### Unikernel
 
 Kernel orientado en la eliminación entre hardware y software, de manera que se optimice lo máxiimo posible los recursos con los que se cuentan. Mayoritariamente utilizado en soluciones de IoT.
 
-### Anykernel
+* ### Anykernel
 
 Kernel que toma como base un kernel monolítico pero agregando capas de seguridad y de herramientas que le brindan mayor comodidad al usuario.
 
@@ -45,13 +45,13 @@ Linux entra dentro de la categoría de un kernel monolítico ya que ofrece lo m�
 ## User Mode vs Kernel Mode
 
 Los sistemas operativos tienen dos maneras de permitir que algún elemento de software acceda a las capas más bajas del hardware, siendo estas en modo usuario o en modo kernel, a continuación se describen las diferencias entre ellos.
-### User Mode
+* ### User Mode
 
 El modo usuario es el nivel de privilegios que otorga el sistema operativo a todos los programas con los que interactúa el usuario final. Este nivel de privilegio restringe lo que el software puede o no puede hacer, de manera que todas las acciones se realizan utilizando las syscalls que provee el kernel.
 
 Se dice que este modo es restrictivo porque si hay alguna acción que se desee realizar que no se encuentre disponible por las syscalls del kernel esta acción no será posible realizarla.
 
-### Kernel Mode
+* ### Kernel Mode
 
 El modo kernel es el nivel de privilegios que otorga el sistema operativo a algún elemento de software que le permite acceder a los componentes de hardware sin la necesidad de utilizar las syscalls del kernel.
 
