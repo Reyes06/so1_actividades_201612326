@@ -10,7 +10,7 @@ Salida de consola:
 
 Usuario1:
 
-![img/Picture1](img/Picture1)
+![img/Picture1](img/Picture1.png)
 
 Usuario2:
 
