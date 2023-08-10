@@ -62,6 +62,7 @@ Salida de consola:
 
 ## Parte 2: Gestión de Grupos
 1. Creación de Grupos: Crea dos grupos llamados `grupo1` y `grupo2`.
+
 Comandos utilizados:
 
 	sudo addgroup grupo1
@@ -84,6 +85,7 @@ Salida de consola:
 ![picture8](img/Picture8.png)
 
 3. Verificar Membresía: Verifica que los usuarios han sido agregados a los grupos utilizando el comando `groups`.
+
 Comandos utilizados:
 
 	groups usuario1
@@ -105,8 +107,8 @@ Salida de consola:
 
 ## Parte 3: Gestión de Permisos
 1. Creación de Archivos y Directorios:
-Como `usuario1`, crea un archivo llamado `archivo1.txt` en su directorio principal y escribe algo en él.
-Crea un directorio llamado `directorio1` y dentro de ese directorio, un archivo llamado `archivo2.txt`.
+1.1. Como `usuario1`, crea un archivo llamado `archivo1.txt` en su directorio principal y escribe algo en él.
+1.2. Crea un directorio llamado `directorio1` y dentro de ese directorio, un archivo llamado `archivo2.txt`.
 
 Comandos utilizados:
 
