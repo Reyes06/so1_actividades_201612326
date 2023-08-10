@@ -1,5 +1,6 @@
 ## Parte 1: Gestión de Usuarios
 1. Creación de Usuarios: Crea tres usuarios llamados `usuario1`, `usuario2` y `usuario3`.
+
 Comandos utilizados:
 
 	sudo adduser usuario1
