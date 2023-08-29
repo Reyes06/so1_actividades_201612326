@@ -1,0 +1,10 @@
+[Unit]
+Description=Script de saludo y fecha
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/actividad4.sh
+
+[Install]
+WantedBy=default.target
+
